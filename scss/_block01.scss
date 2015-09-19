@@ -1,0 +1,68 @@
+// ----- Block01 ---------
+
+.b01 {
+    height: 735px;
+    background: url("../img/b01_bg.jpg") top center no-repeat;
+
+    .logo {
+        left: 0;
+        top: 30px;
+        width: 153px;
+        height: 90px;
+        position: absolute;
+        background: url("../img/logo.png") 0 0 no-repeat;
+    }
+
+    .contact {
+        right: 0;
+        top: 40px;
+        text-align: right;
+        position: absolute;
+    }
+
+    .tel {
+        color: #3a3a3a;
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+
+    h1 {
+        padding-top: 155px;
+        margin-bottom: 290px;
+    }
+
+    .text {
+        color: #252525;
+        font-size: 22px;
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 75px;
+
+        span {
+            position: relative;
+            display: inline-block;
+
+            &:before {
+                top: 3px;
+                left: -45px;
+                width: 30px;
+                height: 23px;
+                content: " ";
+                position: absolute;
+                background: url("../img/pattern.png") 0 0 no-repeat;
+            }
+
+            &:after {
+                top: 8px;
+                right: -45px;
+                width: 30px;
+                height: 23px;
+                content: " ";
+                position: absolute;
+                background: url("../img/pattern.png") -30px 0 no-repeat;
+            }
+        }
+    }
+}
