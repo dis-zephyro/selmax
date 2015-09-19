@@ -1,3 +1,10 @@
+$('.topnav li a').click(function(){
+    var str=$(this).attr('href');
+    $.scrollTo(str, {offset:-50});
+    return false;
+});
+
+
 $(".certification a").fancybox({
     "padding" : 0
 });
