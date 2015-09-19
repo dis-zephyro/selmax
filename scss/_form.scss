@@ -1,5 +1,6 @@
 .btn {
     color: #fff;
+    border: none;
     outline: none;
     cursor: pointer;
     font-size: 15px;
@@ -37,10 +38,147 @@
     }
 }
 
+.btn-large {
+    padding: 15px 26px;
+}
 
 .form-main {
+    color: #fff;
     width: 823px;
     height: 390px;
     margin: 0 auto;
+    padding: 50px 20px;
     background: url("../img/form_bg.png") top center no-repeat;
+
+    .form-title {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+    }
+
+    ul {
+        padding: 0;
+        width: 500px;
+        margin: 0 auto;
+        list-style: none;
+    }
+
+    li {
+        float: left;
+        width: 250px;
+        padding: 0 25px;
+        position: relative;
+        margin-bottom: 30px;
+
+        &:before {
+            top: 8px;
+            left: 0;
+            width: 20px;
+            height: 23px;
+            content: " ";
+            position: absolute;
+            background: url("../img/pattern.png") no-repeat;
+        }
+
+        &.item1 {
+            &:before {
+                background-position: -100px 0;
+            }
+        }
+
+        &.item2 {
+            &:before {
+                background-position: -120px 0;
+            }
+        }
+
+        &.item3 {
+            &:before {
+                background-position: -140px 0;
+            }
+        }
+
+        &.item4 {
+            &:before {
+                background-position: -160px 0;
+            }
+        }
+    }
+}
+
+.form-control {
+    margin: 0;
+    width: 100%;
+    outline: none;
+    display: block;
+    color: #818080;
+    font-size: 15px;
+    font-weight: 400;
+    background: #fff;
+    line-height: 20px;
+    padding: 9px 10px;
+    border: 1px solid #fff;
+
+    @include border-radius(3px);
+    @include box-shadow(0px 1px 1px 0px rgba(0, 40, 76, 0.75));
+    @include placeholder(#818080);
+}
+
+.modal-box {
+    width: 400px;
+    color: #fff;
+    padding: 30px 30px 30px 20px;
+    background: #08519d;
+
+    .form-title {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        text-align: center;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .form-group {
+        position: relative;
+        margin-bottom: 25px;
+        padding-left: 25px;
+
+        &:before {
+            top: 8px;
+            left: 0;
+            width: 20px;
+            height: 23px;
+            content: " ";
+            display: none;
+            position: absolute;
+            background: url("../img/pattern.png") no-repeat;
+        }
+
+
+        &.form-name {
+
+            &:before {
+                display: block;
+                background-position: -100px 0;
+            }
+        }
+
+        &.form-tel {
+            &:before {
+                display: block;
+                background-position: -120px 0;
+            }
+        }
+
+        &.form-city {
+            &:before {
+                background-position: -140px 0;
+            }
+        }
+    }
 }

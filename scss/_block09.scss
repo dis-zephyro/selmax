@@ -1,0 +1,72 @@
+.b09 {
+    height: 540px;
+    padding-top: 60px;
+    background: url("../img/b09_bg.jpg") top center no-repeat;
+
+    h2 {
+        margin-bottom: 50px;
+    }
+
+    .advantage {
+        margin-bottom: 60px;
+
+        li {
+            width: 20%;
+            float: left;
+            color: #2e2e2e;
+            font-size: 13px;
+            text-align: center;
+            position: relative;
+            padding: 70px 15px 0 15px;
+
+            &:before {
+                top: 0;
+                left: 50%;
+                width: 60px;
+                height: 60px;
+                content: " ";
+                margin-left: -30px;
+                position: absolute;
+                background: url("../img/pattern.png") no-repeat;
+            }
+
+            &.item1 {
+                &:before {
+                    background-position: 0 -210px;
+                }
+            }
+
+            &.item2 {
+                &:before {
+                    background-position: -60px -210px;
+                }
+            }
+
+            &.item3 {
+                &:before {
+                    background-position: -120px -210px;
+                }
+            }
+
+            &.item4 {
+                &:before {
+                    background-position: -180px -210px;
+                }
+            }
+
+            &.item5 {
+                &:before {
+                    background-position: -240px -210px;
+                }
+            }
+        }
+    }
+
+    .text-box {
+        color: #2e2e2e;
+        margin: 0 60px;
+        font-size: 16px;
+        padding: 30px 40px;
+        background: rgba(255, 255, 255, 0.7);
+    }
+}

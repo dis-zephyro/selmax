@@ -1,0 +1,29 @@
+.b11 {
+
+    h2 {
+        text-align: left;
+    }
+
+    .map-block {
+        width: 50%;
+        float: left;
+        position: relative;
+    }
+
+    #map {
+        height: 275px;
+    }
+
+    .contact-block {
+        width: 50%;
+        float: right;
+        height: 275px;
+        padding-top: 70px;
+        padding-left: 80px;
+        background: #f8f8f8;
+    }
+
+    .address {
+        font-size: 18px;
+    }
+}

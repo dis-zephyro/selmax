@@ -1,0 +1,22 @@
+.b06 {
+    color: #fff;
+    height: 530px;
+    padding: 60px 0;
+    background: url("../img/b06_bg.jpg") top center no-repeat;
+
+    h2 {
+        margin-bottom: 50px;
+    }
+
+    .certification {
+        padding: 0;
+        margin: 0 -10px;
+        list-style: none;
+
+        li {
+            float: left;
+            width: 220px;
+            margin: 0 10px;
+        }
+    }
+}

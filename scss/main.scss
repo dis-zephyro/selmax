@@ -9,6 +9,12 @@
 @import "block04";
 @import "block05";
 @import "block06";
+@import "block07";
+@import "block08";
+@import "block09";
+@import "block10";
+@import "block11";
+@import "footer";
 
 /* Base styles
    ========================= */
@@ -89,4 +95,9 @@ ul {
     color: #3681c5;
     font-weight: 600;
     font-style: italic;
+}
+
+.text-small {
+    font-size: 10px;
+    padding-top: 10px;
 }

@@ -1,0 +1,66 @@
+.b08 {
+    padding: 60px 0;
+    background: #fff;
+
+    h2 {
+        margin-bottom: 50px;
+    }
+
+    .product {
+        width: 870px;
+        margin: 0 auto;
+        padding-bottom: 60px;
+
+        li {
+            float: left;
+            width: 200px;
+            height: 260px;
+            padding: 20px;
+            text-align: center;
+            background: #f9fafa;
+            margin: 0 45px 70px 45px;
+            @include border-radius(4px);
+            @include box-shadow(0px 1px 1px 0px rgba(192, 192, 192, 0.75));
+        }
+
+        .product-name {
+            color: #2e2e2e;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .product-image {
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            width: 100%;
+            display: block;
+        }
+    }
+
+    .form-main {
+        height: 560px;
+        margin-top: -10px;
+        margin-bottom: 40px;
+        background: url("../img/b08_form_bg.png") top center no-repeat;
+    }
+
+    .row {
+        margin-top: -15px;
+
+        .col-left {
+            float: left;
+            width: 380px;
+            padding-right: 40px;
+        }
+
+        .col-right {
+            float: right;
+            width: 560px;
+        }
+    }
+}
