@@ -215,13 +215,17 @@
                     <br/>в высоком качестве материала!</h2>
                 <div class="form-main">
                     <div class="form-title">Заполните форму и закажите бесплатные образцы</div>
-                    <form class="form">
+                    <form class="form" name="form" method="POST" action="javascript:void(0);">
                         <ul class="form-body clearfix">
                             <li class="item1">
-                                <input class="form-control" type="text" name="name" placeholder="Имя">
+                                <label class="name none required">
+                                    <input class="form-control" type="text" name="name" placeholder="Имя">
+                                </label>
                             </li>
                             <li class="item2">
-                                <input class="form-control" type="text" name="phone" placeholder="Телефон">
+                                <label class="phone none required">
+                                    <input class="form-control" type="text" name="phone" placeholder="Телефон">
+                                </label>
                             </li>
                             <li class="item3">
                                 <input class="form-control" type="text" name="city" placeholder="Город">
@@ -430,13 +434,17 @@
                 <h2>Хорошие скидки в зависимости от объема</h2>
                 <div class="form-main">
                     <div class="form-title">Рассчитать процент скидки</div>
-                    <form class="form">
+                    <form class="form" name="form" method="POST" action="javascript:void(0);">
                         <ul class="form-body clearfix">
                             <li class="item1">
-                                <input class="form-control" type="text" name="name" placeholder="Имя">
+                                <label class="name none required">
+                                    <input class="form-control" type="text" name="name" placeholder="Имя">
+                                </label>
                             </li>
                             <li class="item2">
-                                <input class="form-control" type="text" name="phone" placeholder="Телефон">
+                                <label class="phone none required">
+                                    <input class="form-control" type="text" name="phone" placeholder="Телефон">
+                                </label>
                             </li>
                             <li class="item3">
                                 <input class="form-control" type="text" name="city" placeholder="Город">
@@ -486,13 +494,17 @@
                 <h2>Приглашаем к продотворному и взаимовыгодному сотрудничеству строительные и торговые</h2>
                 <div class="form-main">
                     <div class="form-title">Записывайтесь на консультацию<br/>по условиям партнерства</div>
-                    <form class="form">
+                    <form class="form" name="form" method="POST" action="javascript:void(0);">
                         <ul class="form-body clearfix">
                             <li class="item1">
-                                <input class="form-control" type="text" name="name" placeholder="Имя">
+                                <label class="name none required">
+                                    <input class="form-control" type="text" name="name" placeholder="Имя">
+                                </label>
                             </li>
                             <li class="item2">
-                                <input class="form-control" type="text" name="phone" placeholder="Телефон">
+                                <label class="phone none required">
+                                    <input class="form-control" type="text" name="phone" placeholder="Телефон">
+                                </label>
                             </li>
                             <li class="item3">
                                 <input class="form-control" type="text" name="city" placeholder="Город">
@@ -538,12 +550,16 @@
             <div class="modal-box" id="callback">
                 <div class="form-modal">
                     <div class="form-title">Обратный звонок</div>
-                    <form class="form">
+                    <form class="form" name="form" method="POST" action="javascript:void(0);">
                         <div class="form-group form-name">
-                            <input class="form-control" type="text" name="name" placeholder="Имя">
+                            <label class="name none required">
+                                <input class="form-control" type="text" name="name" placeholder="Имя">
+                            </label>
                         </div>
                         <div class="form-group form-tel">
-                            <input class="form-control" type="text" name="phone" placeholder="Телефон">
+                            <label class="phone none required">
+                                <input class="form-control" type="text" name="phone" placeholder="Телефон">
+                            </label>
                         </div>
                         <div class="text-center">
                             <button type="submit" class="btn btn-large btn-submit">Заказать обратный звонок</button>
@@ -558,12 +574,16 @@
             <div class="modal-box" id="quest-block">
                 <div class="form-modal">
                     <div class="form-title">Задать вопрос</div>
-                    <form class="form">
+                    <form class="form" name="form" method="POST" action="javascript:void(0);">
                         <div class="form-group form-name">
-                            <input class="form-control" type="text" name="name" placeholder="Имя">
+                            <label class="name none required">
+                                <input class="form-control" type="text" name="name" placeholder="Имя">
+                            </label>
                         </div>
                         <div class="form-group form-tel">
-                            <input class="form-control" type="text" name="phone" placeholder="Телефон">
+                            <label class="phone none required">
+                                <input class="form-control" type="text" name="phone" placeholder="Телефон">
+                            </label>
                         </div>
                         <div class="form-group">
                             <textarea class="form-control" name="message" placeholder="Суть вопроса" rows="4"></textarea>
@@ -581,12 +601,16 @@
             <div class="modal-box" id="order-block">
                 <div class="form-modal">
                     <div class="form-title">Заказать продукт</div>
-                    <form class="form">
+                    <form class="form" name="form" method="POST" action="javascript:void(0);">
                         <div class="form-group form-name">
-                            <input class="form-control" type="text" name="name" placeholder="Имя">
+                            <label class="name none required">
+                                <input class="form-control" type="text" name="name" placeholder="Имя">
+                            </label>
                         </div>
                         <div class="form-group form-tel">
-                            <input class="form-control" type="text" name="phone" placeholder="Телефон">
+                            <label class="phone none required">
+                                <input class="form-control" type="text" name="phone" placeholder="Телефон">
+                            </label>
                         </div>
                         <div class="form-group form-city">
                             <input class="form-control" type="text" name="phone" placeholder="Город">
@@ -607,6 +631,7 @@
         <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
         <script src="js/vendor/jquery.fancybox/jquery.fancybox.pack.js"></script>
         <script src="js/vendor/jquery.scrollTo.min.js"></script>
+        <script src="js/vendor/validator.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

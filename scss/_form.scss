@@ -42,6 +42,10 @@
     padding: 15px 26px;
 }
 
+label {
+    font-weight: 400;
+}
+
 .form-main {
     color: #fff;
     width: 823px;
@@ -128,6 +132,10 @@
     @include placeholder(#818080);
 }
 
+.red .form-control {
+    border-color: #ff0000;
+}
+
 .modal-box {
     width: 400px;
     color: #fff;
@@ -180,5 +188,23 @@
                 background-position: -140px 0;
             }
         }
+    }
+}
+
+.done {
+    width: 400px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 30px 30px 30px 20px;
+    background: #08519d;
+
+    .done-title {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        text-align: center;
+        margin-bottom: 20px;
+        text-transform: uppercase;
     }
 }
