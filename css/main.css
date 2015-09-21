@@ -301,14 +301,14 @@ label {
   height: 735px;
   background: url("../img/b01_bg.jpg") top center no-repeat; }
   .b01 .logo {
-    left: 0;
     top: 30px;
+    left: 15px;
     width: 153px;
     height: 90px;
     position: absolute;
     background: url("../img/logo.png") 0 0 no-repeat; }
   .b01 .contact {
-    right: 0;
+    right: 15px;
     top: 40px;
     text-align: right;
     position: absolute; }
